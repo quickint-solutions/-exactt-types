@@ -1,6 +1,6 @@
 import { IBase } from './IBase';
 
-export default interface IAccess extends IBase {
+export interface IAccess extends IBase {
   userId: string;
   laboratoryId: string;
   departmentId: string;

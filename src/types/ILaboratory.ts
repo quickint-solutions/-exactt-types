@@ -1,6 +1,6 @@
 import { IBase, IAddress, IBankDetails } from './IBase';
 
-export default interface ILaboratory extends IBase {
+export interface ILaboratory extends IBase {
   _id: string;
   name: string;
   contactPerson: string;

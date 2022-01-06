@@ -1,6 +1,6 @@
 import { IBase } from './IBase';
 
-interface IUser extends IBase {
+export interface IUser extends IBase {
   name: string;
   country: string;
   phone: string;
@@ -8,5 +8,3 @@ interface IUser extends IBase {
   isVerified: boolean;
   password: string;
 }
-
-export default IUser;
