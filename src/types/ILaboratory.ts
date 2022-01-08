@@ -8,12 +8,12 @@ export interface ILaboratory extends IBase {
   country: string;
   phone: string;
   email: string;
-  website: string;
+  website?: string;
   address: IAddress;
   bankingDeatils: IBankDetails;
   gst: string;
   pan: string;
-  nabl: string;
+  nabl?: string;
   type: string;
-  otherLicenceNumber: string;
+  otherLicenceNumber?: string;
 }
