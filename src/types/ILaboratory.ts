@@ -14,6 +14,7 @@ export interface ILaboratory extends IBase {
   gst: string;
   pan: string;
   nabl?: string;
+  drugLicenceNumber: string;
   type: string;
   otherLicenceNumber?: string;
 }
