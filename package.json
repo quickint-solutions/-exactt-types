@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@types/multer-s3": "^2.7.11",
+    "exactt-types": "^1.0.4",
     "multer-s3": "^2.10.0"
   },
   "scripts": {
