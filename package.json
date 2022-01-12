@@ -1,6 +1,6 @@
 {
   "name": "exactt-types",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "project types",
   "main": "index.ts",
   "license": "MIT",
@@ -15,7 +15,6 @@
   },
   "dependencies": {
     "@types/multer-s3": "^2.7.11",
-    "exactt-types": "^1.0.4",
     "multer-s3": "^2.10.0"
   },
   "scripts": {
@@ -23,6 +22,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
+    "publish": "npm publish",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
