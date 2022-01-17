@@ -11,6 +11,7 @@ interface IContactDetails {
 }
 
 export interface ICustomer extends IBase {
+  laboratoryId: string;
   name: string;
   email: string;
   phone: string;
