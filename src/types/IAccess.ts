@@ -12,5 +12,5 @@ export interface IAccess extends IBase {
     stokManagement: boolean;
     laboratorySetting: boolean;
   };
-  role: 'ADMIN' | 'RECEPTIONIST' | 'CHEMIST' | 'ACCOUNT' | 'HOD';
+  role: string;
 }
