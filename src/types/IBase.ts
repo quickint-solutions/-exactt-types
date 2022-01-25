@@ -1,6 +1,6 @@
 export interface IBase {
   _id?: string;
-  isDeleted: boolean;
+  isDeleted?: boolean;
   createdAt?: string;
   updatedAt?: string;
   version?: number;
