@@ -16,7 +16,7 @@ export interface ICustomer extends IBase {
   email: string;
   phone: string;
   country: string;
-  address: IAddress;
+  address: IAddress[];
   contactDetails: IContactDetails[];
   bankingDeatils: IBankDetails;
   pan: string;
