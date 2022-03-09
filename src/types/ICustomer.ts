@@ -21,8 +21,8 @@ export interface ICustomer extends IBase {
   bankingDeatils: IBankDetails;
   pan: string;
   gst: string;
-  aadhar: string;
-  drugLicenceNumber: string;
-  paymentTerms: number;
-  creditLimit: number;
+  aadhar?: string;
+  drugLicenceNumber?: string;
+  paymentTerms?: number;
+  creditLimit?: number;
 }
