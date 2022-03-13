@@ -38,5 +38,6 @@ export interface IMaster extends IBase {
   sampleName: string;
   genericName: string;
   environmentCondition: string;
+  laboratoryId: string;
   parameters: IParameters[];
 }
