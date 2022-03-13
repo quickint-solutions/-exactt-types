@@ -23,13 +23,14 @@ interface ICompliesValidation {
   type: 'complies';
 }
 
+export type IValidation = IRangeValidation | IValidResultValidation | IOptionsValidation | ICompliesValidation;
 export interface IParameters {
   name: string;
   unit: string;
   requirements: string;
   isNABL: boolean;
   department: string;
-  validations: IRangeValidation | IValidResultValidation | IOptionsValidation | ICompliesValidation;
+  validations: IValidation;
 }
 
 export interface IMaster extends IBase {
