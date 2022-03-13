@@ -3,6 +3,7 @@ import { IBase, IAddress, IBankDetails } from './IBase';
 export interface ILaboratory extends IBase {
   logo: string;
   name: string;
+  prefix: string;
   contactPerson: string;
   country: string;
   phone: string;
