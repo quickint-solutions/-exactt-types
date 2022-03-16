@@ -9,3 +9,4 @@ export type { IVerification } from './types/IVerification';
 export type { ICustomer } from './types/ICustomer';
 export type { IMaster, IParameters, IValidation } from './types/IMaster';
 export type { ITestGroup } from './types/ITestGroup';
+export type { ISample } from './types/ISample';
