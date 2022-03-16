@@ -1,5 +1,6 @@
 import { IBase } from './IBase';
 import { ICustomer } from './ICustomer';
+import { ISampleParameter } from './ISampleParameter';
 import { ITestGroup } from './ITestGroup';
 import { IUser } from './IUser';
 
@@ -34,4 +35,5 @@ export interface ISample extends IBase {
   hod: string | IUser;
   collectionBy: string | IUser;
   status?: 'PANDING' | 'INPROCESS' | 'COMPLETED';
+  parameters?: ISampleParameter[];
 }
