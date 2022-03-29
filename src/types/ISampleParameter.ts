@@ -10,4 +10,6 @@ export interface ISampleParameter extends IParameters, IBase {
   method?: string;
   result?: any;
   isNagative?: boolean;
+  allotmentDate?: Date;
+  dueDate?: Date;
 }
