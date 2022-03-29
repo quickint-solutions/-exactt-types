@@ -1,4 +1,5 @@
 import { IBase } from './IBase';
+import { IDepartment } from './IDepartment';
 
 interface IRangeValidation {
   type: 'range';
@@ -29,7 +30,7 @@ export interface IParameters {
   unit: string;
   requirements: string;
   isNABL: boolean;
-  department: string;
+  department: string | IDepartment;
   validations: IValidation;
 }
 
