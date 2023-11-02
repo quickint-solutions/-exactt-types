@@ -11,3 +11,4 @@ export type { IMaster, IParameters, IValidation } from './types/IMaster';
 export type { ITestGroup } from './types/ITestGroup';
 export type { ISample } from './types/ISample';
 export type { ISampleParameter } from './types/ISampleParameter';
+export type { IReference } from './types/IReference';
