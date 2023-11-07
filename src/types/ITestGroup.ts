@@ -6,4 +6,5 @@ export interface ITestGroup extends IBase {
   prefix: string;
   laboratoryId: string;
   extraFields?: string[] | [];
+  additionalFields: { key: string; type: 'text'; required: boolean }[];
 }
