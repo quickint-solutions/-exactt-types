@@ -1,5 +1,6 @@
 import { IBase } from './IBase';
 import { ICustomer } from './ICustomer';
+import { IReference } from './IReference';
 import { ISampleParameter } from './ISampleParameter';
 import { ITestGroup } from './ITestGroup';
 import { IUser } from './IUser';
@@ -7,6 +8,7 @@ import { IUser } from './IUser';
 export interface ISample extends IBase {
   laboratoryId: string;
   customer: string | ICustomer;
+  reference: string | IReference;
   dueDate: Date;
   labDueDate: Date;
   collectionDate: Date;
