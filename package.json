@@ -1,6 +1,6 @@
 {
   "name": "exactt-types",
-  "version": "1.0.35",
+  "version": "1.0.38",
   "description": "project types",
   "main": "index.ts",
   "license": "MIT",

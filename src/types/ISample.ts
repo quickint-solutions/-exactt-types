@@ -26,6 +26,13 @@ export interface ISample extends IBase {
   drugLicNo: string;
   type: string;
   description?: string;
+  rate: number;
+  sac: string;
+  gst: number;
+  igst: boolean;
+  discount: number;
+  paidAmount: number;
+  paymentDueDate: Date;
   samplePacking: string;
   sampleQty: string;
   sampleCondition: string;
