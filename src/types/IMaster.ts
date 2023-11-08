@@ -17,7 +17,7 @@ interface IOptionsValidation {
   type: 'options';
   validOptions: string[];
   invalidOptions: string[];
-  allowMuiltiple: boolean;
+  allowMultiple: boolean;
 }
 
 interface ICompliesValidation {
