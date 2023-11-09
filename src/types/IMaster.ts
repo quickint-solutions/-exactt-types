@@ -32,6 +32,7 @@ export interface IParameters {
   isNABL: boolean;
   department: string | IDepartment;
   validations: IValidation;
+  resultGroup: string;
 }
 
 export interface IMaster extends IBase {
