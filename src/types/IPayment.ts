@@ -9,4 +9,5 @@ export interface IPayment extends IBase {
   paymentMode: string | 'CASH ' | 'ONLINE ' | 'CHEQUE ' | 'UPI';
   collectedBy: string | IUser;
   amount: number;
+  laboratoryId: string;
 }
