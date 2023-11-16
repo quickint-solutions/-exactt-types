@@ -12,3 +12,4 @@ export type { ITestGroup } from './types/ITestGroup';
 export type { ISample } from './types/ISample';
 export type { ISampleParameter } from './types/ISampleParameter';
 export type { IReference } from './types/IReference';
+export type { IPayment } from './types/IPayment';
