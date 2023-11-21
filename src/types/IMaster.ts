@@ -47,5 +47,6 @@ export interface IMaster extends IBase {
   requiredOpinion: boolean;
   resultHeader: string;
   resultFooter: string;
+  printTemplate: string;
   parameters: IParameters[];
 }
