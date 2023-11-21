@@ -7,7 +7,6 @@ export interface ISampleParameter extends IParameters, IBase {
   assignTo?: string;
   approvedBy?: string;
   status?: 'PANDING' | 'INPROCESS' | 'REJECT' | 'COMPLETED';
-  method?: string;
   result?: any;
   isNagative?: boolean;
   allotmentDate?: Date;

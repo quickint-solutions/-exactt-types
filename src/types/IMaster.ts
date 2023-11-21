@@ -33,7 +33,8 @@ export interface IParameters {
   department: string | IDepartment;
   validations: IValidation;
   resultGroup: string;
-  AcceptableLimit: string;
+  acceptableLimit: string;
+  method?: string;
 }
 
 export interface IMaster extends IBase {
