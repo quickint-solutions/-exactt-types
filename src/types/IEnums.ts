@@ -12,15 +12,15 @@ export interface IEnums {
     PHARMACEUTICAL: 'Pharmaceutical';
   };
   resultType: {
-    KSZ_SAMPLE: 'Ksz Sample';
+    KSZ_SAMPLE: 'KSZ Sample';
     FOOD_MASTER: 'Food Master';
-    BSI_REPORT: 'Bsi Report';
-    W_PDW_AS_PER_FASSI: 'W Pwd As Per Fassi';
+    BSI_REPORT: 'BSI Report';
+    W_PDW_AS_PER_FASSI: 'W PDW as per FASSI';
     W_GENERAL: 'W General';
-    PDW_GENERAL: 'Pdw General';
-    PDW_AS_PER_FASSI: 'Pdw As Per Fassi';
+    PDW_GENERAL: 'PDW General';
+    PDW_AS_PER_FASSI: 'PDW as per FASSI';
     MUNDRA: 'Mundra';
     FOOD_GENERAL: 'Food General';
-    CENTRAL_FSSAI_FORM_Vii_A: 'Central Fssai Form Vii_a';
+    CENTRAL_FSSAI_FORM_Vii_A: 'Central FSSAI form VII A';
   };
 }
