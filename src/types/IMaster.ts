@@ -34,6 +34,7 @@ export interface IParameters {
   validations: IValidation;
   resultGroup: string;
   acceptableLimit: string;
+  permissibleLimit: string;
   method?: string;
 }
 
