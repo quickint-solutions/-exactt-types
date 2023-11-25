@@ -38,6 +38,12 @@ export interface IParameters {
   method?: string;
 }
 
+export interface IAdditionalFields {
+  key: string
+  type: string
+  required: boolean
+}
+
 export interface IMaster extends IBase {
   masterId?: string;
   sampleName: string;
@@ -50,4 +56,5 @@ export interface IMaster extends IBase {
   resultFooter: string;
   printTemplate: string;
   parameters: IParameters[];
+  additionalFields: IAdditionalFields[];
 }
