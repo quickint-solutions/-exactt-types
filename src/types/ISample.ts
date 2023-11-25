@@ -47,6 +47,7 @@ export interface ISample extends IBase {
   collectionBy: string | IUser;
   status?: 'PANDING' | 'INPROCESS' | 'COMPLETED';
   parameters?: ISampleParameter[];
+  additionalFields: any;
   analysisDate?: Date;
   completeDate?: Date;
   reportDate?: Date;
