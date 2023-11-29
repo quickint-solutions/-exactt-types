@@ -45,11 +45,14 @@ export interface ISample extends IBase {
   samplingMethod: string;
   hod: string | IUser;
   collectionBy: string | IUser;
-  status?: 'PANDING' | 'INPROCESS' | 'COMPLETED';
+  status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
   parameters?: ISampleParameter[];
   additionalFields: any;
   analysisDate?: Date;
   completeDate?: Date;
   reportDate?: Date;
   url: string;
+  reviewedBy: string;
+  authorizedSignature1: string;
+  authorizedSignature2?: string;
 }
