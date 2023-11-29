@@ -52,4 +52,7 @@ export interface ISample extends IBase {
   completeDate?: Date;
   reportDate?: Date;
   url: string;
+  reviewedBy: string;
+  authorizedSignature1: string;
+  authorizedSignature2?: string;
 }
