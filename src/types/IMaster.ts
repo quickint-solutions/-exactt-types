@@ -46,9 +46,8 @@ export interface IMaster extends IBase {
   testingMethod: string;
   laboratoryId: string;
   requiredOpinion: boolean;
-  resultHeader: string;
-  resultFooter: string;
+  resultHeader?: string;
+  resultFooter?: string;
   printTemplate: string;
   parameters: IParameters[];
-
 }
