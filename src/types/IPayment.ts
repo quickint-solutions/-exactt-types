@@ -8,8 +8,8 @@ export interface IPayment extends IBase {
   customer: string | ICustomer;
   reference: string | IReference;
   sample: string | ISample;
-  paymentMode: 'CASH ' | 'ONLINE ' | 'CHEQUE ' | 'UPI';
-  collectedBy: string | IUser;
-  amount: number;
-  laboratoryId: string;
+  paymentMode?: 'CASH ' | 'ONLINE ' | 'CHEQUE ' | 'UPI';
+  collectedBy?: string | IUser;
+  amount?: number;
+  laboratoryId?: string;
 }

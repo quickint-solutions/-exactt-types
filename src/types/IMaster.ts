@@ -26,15 +26,15 @@ interface ICompliesValidation {
 
 export type IValidation = IRangeValidation | IValidResultValidation | IOptionsValidation | ICompliesValidation;
 export interface IParameters {
-  name: string;
-  unit: string;
-  requirements: string;
-  isNABL: boolean;
+  name?: string;
+  unit?: string;
+  requirements?: string;
+  isNABL?: boolean;
   department: string | IDepartment;
-  validations: IValidation;
-  resultGroup: string;
-  acceptableLimit: string;
-  permissibleLimit: string;
+  validations?: IValidation;
+  resultGroup?: string;
+  acceptableLimit?: string;
+  permissibleLimit?: string;
   method?: string;
 }
 
@@ -42,12 +42,12 @@ export interface IMaster extends IBase {
   masterId?: string;
   sampleName: string;
   genericName: string;
-  environmentCondition: string;
+  environmentCondition?: string;
   testingMethod: string;
-  laboratoryId: string;
+  laboratoryId?: string;
   requiredOpinion?: boolean;
   resultHeader?: string;
   resultFooter?: string;
-  printTemplate: string;
-  parameters: IParameters[];
+  printTemplate?: string;
+  parameters?: IParameters[];
 }

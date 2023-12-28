@@ -4,7 +4,7 @@ import { IAddress } from '..';
 export interface IReference extends IBase {
   name: string;
   address?: IAddress;
-  phone: string;
+  phone?: string;
   companyName?: string;
-  laboratoryId: string;
+  laboratoryId?: string;
 }

@@ -7,7 +7,7 @@ import { ITestGroup } from './ITestGroup';
 import { IUser } from './IUser';
 
 export interface ISample extends IBase {
-  laboratoryId: string;
+  laboratoryId?: string;
   customer: string | ICustomer;
   reference: string | IReference;
   master: string | IMaster;
@@ -42,11 +42,11 @@ export interface ISample extends IBase {
   sampleCondition?: string;
   envCondition?: string;
   servingSize?: string;
-  samplingMethod: string;
+  samplingMethod?: string;
   hod?: string | IUser;
-  collectionBy: string | IUser;
+  collectionBy?: string | IUser;
   status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
-  parameters: ISampleParameter[];
+  parameters?: ISampleParameter[];
   additionalFields?: any;
   analysisDate?: Date;
   completeDate?: Date;

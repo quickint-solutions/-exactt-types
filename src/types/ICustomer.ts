@@ -11,14 +11,14 @@ interface IContactDetails {
 }
 
 export interface ICustomer extends IBase {
-  laboratoryId: string;
+  laboratoryId?: string;
   name: string;
   email: string;
   phone: string;
   country?: string;
   address?: IAddress[];
-  contactDetails: IContactDetails[];
-  bankingDeatils: IBankDetails;
+  contactDetails?: IContactDetails[];
+  bankingDeatils?: IBankDetails;
   pan?: string;
   gst?: string;
   aadhar?: string;
