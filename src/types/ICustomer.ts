@@ -15,12 +15,12 @@ export interface ICustomer extends IBase {
   name: string;
   email: string;
   phone: string;
-  country: string;
-  address: IAddress[];
+  country?: string;
+  address?: IAddress[];
   contactDetails: IContactDetails[];
   bankingDeatils: IBankDetails;
-  pan: string;
-  gst: string;
+  pan?: string;
+  gst?: string;
   aadhar?: string;
   drugLicenceNumber?: string;
   paymentTerms?: number;

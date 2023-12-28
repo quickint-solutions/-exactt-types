@@ -9,8 +9,8 @@ export interface IAdditionalFields {
 export interface ITestGroup extends IBase {
   name: string;
   description: string;
-  prefix: string;
+  prefix?: string;
   laboratoryId: string;
   extraFields?: string[] | [];
-  additionalFields: IAdditionalFields[];
+  additionalFields?: IAdditionalFields[];
 }

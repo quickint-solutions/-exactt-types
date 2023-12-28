@@ -45,7 +45,7 @@ export interface IMaster extends IBase {
   environmentCondition: string;
   testingMethod: string;
   laboratoryId: string;
-  requiredOpinion: boolean;
+  requiredOpinion?: boolean;
   resultHeader?: string;
   resultFooter?: string;
   printTemplate: string;

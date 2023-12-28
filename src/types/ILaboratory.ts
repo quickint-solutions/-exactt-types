@@ -5,17 +5,17 @@ export interface ILaboratory extends IBase {
   name: string;
   prefix: string;
   contactPerson: string;
-  country: string;
+  country?: string;
   phone: string;
   email: string;
   website?: string;
   address: IAddress;
   bankingDeatils: IBankDetails;
-  gst: string;
-  pan: string;
+  gst?: string;
+  pan?: string;
   nabl?: string;
   drugLicenceNumber: string;
-  type: string;
+  type?: string;
   otherLicenceNumber?: string;
-  stampImage: string;
+  stampImage?: string;
 }
