@@ -43,8 +43,8 @@ export interface ISample extends IBase {
   envCondition?: string;
   servingSize?: string;
   samplingMethod?: string;
-  hod?: string | IUser;
-  collectionBy?: string | IUser;
+  hod: string | IUser;
+  collectionBy: string | IUser;
   status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
   parameters?: ISampleParameter[];
   additionalFields?: any;
@@ -52,7 +52,7 @@ export interface ISample extends IBase {
   completeDate?: Date;
   reportDate?: Date;
   url?: string;
-  reviewedBy?: string | IUser;
+  reviewedBy: string | IUser;
   authorizedSignature1: string | IUser;
   authorizedSignature2?: string | IUser;
 }
