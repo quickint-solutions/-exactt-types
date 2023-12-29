@@ -10,7 +10,7 @@ export interface ILaboratory extends IBase {
   email: string;
   website?: string;
   address?: IAddress;
-  bankingDeatils?: IBankDetails;
+  bankingDetails?: IBankDetails;
   gst?: string;
   pan?: string;
   nabl?: string;

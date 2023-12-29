@@ -11,11 +11,11 @@ export interface ISample extends IBase {
   customer: string | ICustomer;
   reference: string | IReference;
   master: string | IMaster;
-  dueDate?: Date;
-  labDueDate?: Date;
-  collectionDate?: Date;
-  mfgDate?: Date;
-  expDate?: Date;
+  dueDate: Date;
+  labDueDate: Date;
+  collectionDate: Date;
+  mfgDate: Date;
+  expDate: Date;
   sampleId?: string;
   name: string;
   genericName: string;
