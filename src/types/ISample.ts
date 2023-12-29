@@ -54,5 +54,5 @@ export interface ISample extends IBase {
   url?: string;
   reviewedBy: string | IUser;
   authorizedSignature1: string | IUser;
-  authorizedSignature2?: string | IUser;
+  authorizedSignature2?: string | IUser | undefined;
 }
