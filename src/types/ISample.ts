@@ -103,4 +103,5 @@ export interface ISample extends IBase {
   sampleStatus?: string;
   parametersMonitors?: string;
   statusReasons?: string;
+  opinion?: string;
 }

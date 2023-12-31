@@ -15,3 +15,4 @@ export type { IReference } from './types/IReference';
 export type { IPayment } from './types/IPayment';
 export type { IPaymentDetails } from './types/IPaymentDetail';
 export type { IPageSetup } from './types/IPageSetup';
+export type { IResultTemplate } from './types/IResultTemplate';
