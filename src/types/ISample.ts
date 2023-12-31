@@ -95,6 +95,7 @@ export interface ISample extends IBase {
   srNo?: string;
   stackVelocity?: string;
   sealsFixedNo?: string;
+  testMethod?: string;
   conformsOrNon?: string;
   sealedCoverByThe?: string;
   serviceMode?: string;
