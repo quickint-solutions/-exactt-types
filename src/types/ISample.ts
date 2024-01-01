@@ -51,7 +51,7 @@ export interface ISample extends IBase {
   analysisDate?: Date;
   completeDate?: Date;
   reportDate?: Date;
-  url?: string;
+  ulr?: string;
   reviewedBy: string | IUser;
   authorizedSignature1: string | IUser;
   authorizedSignature2?: string | IUser | undefined;
