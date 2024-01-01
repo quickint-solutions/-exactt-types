@@ -43,7 +43,7 @@ export interface ISample extends IBase {
   envCondition?: string;
   servingSize?: string;
   samplingMethod?: string;
-  hod: string | IUser;
+  hod?: string | IUser;
   collectionBy: string | IUser;
   status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
   parameters?: ISampleParameter[];
