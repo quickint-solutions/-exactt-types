@@ -24,7 +24,7 @@ export interface ISample extends IBase {
   brandName?: string;
   manufacture?: string;
   marking?: string;
-  supplier: string;
+  supplier?: string;
   batchNo?: string;
   batchSize?: string;
   drugLicNo?: string;
