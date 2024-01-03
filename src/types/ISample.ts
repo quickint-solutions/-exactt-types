@@ -46,6 +46,7 @@ export interface ISample extends IBase {
   hod?: string | IUser;
   collectionBy: string | IUser;
   status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
+  formType: 'FOOD' | 'WATER';
   parameters?: ISampleParameter[];
   additionalFields?: any;
   analysisDate?: Date;
