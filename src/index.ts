@@ -16,3 +16,4 @@ export type { IPayment } from './types/IPayment';
 export type { IPaymentDetails } from './types/IPaymentDetail';
 export type { IPageSetup } from './types/IPageSetup';
 export type { IResultTemplate } from './types/IResultTemplate';
+export type { IInvitation } from './types/IInvitation';
