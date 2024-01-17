@@ -23,4 +23,18 @@ export interface IEnums {
     FOOD_GENERAL: 'Food General';
     CENTRAL_FSSAI_FORM_Vii_A: 'Central FSSAI form VII A';
   };
+
+  accessType: {
+    ACCOUNTING: 'Accounting';
+    CUSTOMER: 'Customer';
+    REFERENCE: 'Reference';
+    PAYMENT: 'Payment';
+    TEST_GROUP: 'Test Group';
+    RESULT_TEMPLATE: 'Result Template';
+    DEPARTMENT: 'Department';
+    LABORATORY_SETTING: 'Laboratory Setting';
+    MASTER: 'Master';
+    SAMPLES: 'Samples';
+    STOCK_MANAGEMENT: 'Stock Management';
+  };
 }
