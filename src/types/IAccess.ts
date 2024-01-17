@@ -7,6 +7,11 @@ export interface IAccess extends IBase {
   accessList: {
     master: boolean;
     customer: boolean;
+    reference: boolean;
+    payment: boolean;
+    testGroup: boolean;
+    resultTemplate: boolean;
+    department: boolean;
     accounting: boolean;
     samples: boolean;
     stokManagement: boolean;
