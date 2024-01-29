@@ -11,6 +11,13 @@ export interface ISample extends IBase {
   customer: string | ICustomer;
   reference: string | IReference;
   master: string | IMaster;
+  retainDate: Date;
+  retainBy: string | IUser;
+  discordedOn: Date;
+  discordedBy: string | IUser;
+  sampleReceivedMode: string;
+  sampleReceivedBy: string | IUser;
+  dispatchMode: string;
   dueDate: Date;
   labDueDate: Date;
   collectionDate: Date;
