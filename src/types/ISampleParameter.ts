@@ -6,7 +6,7 @@ export interface ISampleParameter extends IParameters, IBase {
   laboratoryId?: string;
   assignTo?: string;
   approvedBy?: string;
-  status?: 'PENDING' | 'INPROCESS' | 'REJECT' | 'COMPLETED';
+  status?: 'PENDING' | 'INPROGRESS' | 'REJECT' | 'COMPLETED';
   result?: any;
   isNagative?: boolean;
   allotmentDate?: Date;
