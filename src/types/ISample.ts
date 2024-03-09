@@ -52,7 +52,7 @@ export interface ISample extends IBase {
   samplingMethod?: string;
   hod?: string | IUser;
   collectionBy: string | IUser;
-  status?: 'PENDING' | 'INPROCESS' | 'COMPLETED';
+  status?: 'PENDING' | 'COMPLETED' | 'INPROGRESS' | 'DISPATCHED';
   formType: 'FOOD' | 'WATER';
   parameters?: ISampleParameter[];
   additionalFields?: any;
