@@ -17,5 +17,6 @@ export interface ILaboratory extends IBase {
   drugLicenceNumber?: string;
   type?: string;
   otherLicenceNumber?: string;
+  ulrNumber?: string;
   stampImage?: string;
 }
