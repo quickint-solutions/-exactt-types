@@ -10,6 +10,4 @@ export interface IInvoice {
   total: number;
   totalTax: number;
   grandTotal: number;
-  paidAmount: number;
-  balanceDue: number;
 }
