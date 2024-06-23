@@ -10,4 +10,5 @@ export interface IInvoice {
   total: number;
   totalTax: number;
   grandTotal: number;
+  igst: boolean;
 }
