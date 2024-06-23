@@ -3,8 +3,8 @@ import { ISample } from './ISample';
 export interface IInvoice {
   id?: string;
   invoiceNumber: string;
-  invoiceDate: string;
-  dueDate: string;
+  invoiceDate: Date;
+  dueDate: Date;
   customer: string;
   samples: ISample[] | string[];
   total: number;
