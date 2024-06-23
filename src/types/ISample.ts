@@ -112,4 +112,5 @@ export interface ISample extends IBase {
   parametersMonitors?: string;
   statusReasons?: string;
   opinion?: string;
+  isInvoiced?: boolean;
 }
