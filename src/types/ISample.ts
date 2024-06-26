@@ -37,6 +37,7 @@ export interface ISample extends IBase {
   drugLicNo?: string;
   type?: string;
   description?: string;
+  otherInformation?: string;
   rate?: number;
   sac?: string;
   gst?: number;
