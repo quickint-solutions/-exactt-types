@@ -25,5 +25,5 @@ export interface ICustomer extends IBase {
   drugLicenceNumber?: string;
   paymentTerms?: number;
   creditLimit?: number;
-  balance?: 0;
+  balance?: number;
 }
