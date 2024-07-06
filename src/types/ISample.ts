@@ -114,4 +114,7 @@ export interface ISample extends IBase {
   statusReasons?: string;
   opinion?: string;
   isInvoiced?: boolean;
+  specialInstructions?: string;
+  testAsPer?: string;
+  remark1?: string;
 }
