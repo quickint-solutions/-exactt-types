@@ -18,3 +18,4 @@ export type { IPageSetup } from './types/IPageSetup';
 export type { IResultTemplate } from './types/IResultTemplate';
 export type { IInvitation } from './types/IInvitation';
 export type { IInvoice } from './types/IInvoice';
+export type { IPriceList, IPriceListParameter } from './types/IPriceList';
