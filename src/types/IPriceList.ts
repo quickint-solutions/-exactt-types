@@ -1,6 +1,7 @@
 import { IBase } from './IBase';
 import { ICustomer } from './ICustomer';
 import { ILaboratory } from './ILaboratory';
+import { IMaster } from './IMaster';
 
 export interface IPriceListParameter extends IBase {
   name: string;
@@ -10,6 +11,7 @@ export interface IPriceListParameter extends IBase {
 export interface IPriceList extends IBase {
   customer: string | ICustomer;
   laboratory: string | ILaboratory;
+  master: string | IMaster;
   price: number;
   parameters: IPriceListParameter[];
   allowDiscount: boolean;
