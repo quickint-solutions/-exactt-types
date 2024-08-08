@@ -9,6 +9,7 @@ export interface IPriceListParameter extends IBase {
 }
 
 export interface IPriceList extends IBase {
+  id?: string;
   customer: string | ICustomer;
   laboratory: string | ILaboratory;
   master: string | IMaster;
