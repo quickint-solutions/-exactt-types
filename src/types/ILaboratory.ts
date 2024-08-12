@@ -16,6 +16,7 @@ export interface ILaboratory extends IBase {
   nabl?: string;
   drugLicenceNumber?: string;
   type?: string;
+  labType?: 'FOOD-WATER' | 'PHARMA';
   otherLicenceNumber?: string;
   ulrNumber?: string;
   stampImage?: string;
