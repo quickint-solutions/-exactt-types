@@ -117,4 +117,5 @@ export interface ISample extends IBase {
   specialInstructions?: string;
   testAsPer?: string;
   remark1?: string;
+  labelClaim?: string;
 }
